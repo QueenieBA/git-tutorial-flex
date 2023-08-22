@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    *{
+      border: 1px solid red;
+    }
+    div{
+      min-height: 20px;
+      min-width: 20px;
+    }
+
+    .bigbox {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fourbox2 {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .description{
+      flex-grow: 1;
+    }
+
+    .title {
+      display:flex;
+    }
+    .titlename{
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="bigbox">
+    <div class="fourbox">Inbox</div>
+    <div class="fourbox2">
+      <div>picture</div>
+      <div class="description">
+        <div class="title">
+          <div class="titlename">Cewy Productions</div>
+            <div>date</div>
+          
+        </div>
+        <div class="details"> Details
+          <!-- <h1>Some text here</h1>
+          <p>This is paragraph</p> -->
+        </div>
+      </div>
+    </div>
+    <div class="fourbox"></div>
+    <div class="fourbox"></div>
+  </div>
+</body>
+</html>
